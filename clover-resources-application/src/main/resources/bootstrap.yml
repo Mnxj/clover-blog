@@ -1,0 +1,47 @@
+server:
+  port: 57020 #启动端口 命令行注入
+  max-http-header-size: 100KB
+
+nacos:
+  server:
+    addr: 115.28.136.212:8848
+
+spring:
+  application:
+    name: resources-application
+  main:
+    allow-bean-definition-overriding: true # Spring Boot 2.1 需要设定
+  cloud:
+    nacos:
+      discovery:
+        server-addr: ${nacos.server.addr}
+        cluster-name: DEFAULT
+      config:
+        server-addr: ${nacos.server.addr} # 配置中心地址
+        file-extension: yaml
+        group: CLOVER_GROUP
+        ext-config:
+        -
+          refresh: true
+          data-id: spring-boot-http.yaml # spring boot http配置
+          group: COMMON_GROUP # 通用配置组
+dubbo:
+  scan:
+    # dubbo 服务扫描基准包
+    base-packages: com.clover
+  protocol:
+    # dubbo 协议
+    name: dubbo
+    port: 20871
+  registry:
+    address: nacos://115.28.136.212:8848
+  application:
+    qos:
+      port: 22221 # dubbo qos端口配置  命令行注入
+  consumer:
+    check: false
+    timeout: 3000
+    retries: -1
+
+logging:
+  config: classpath:log4j2.xml

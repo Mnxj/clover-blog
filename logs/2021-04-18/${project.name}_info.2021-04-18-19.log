@@ -1,0 +1,1 @@
+[${project.name}][${env:SERVER_PORT}] 2021-04-18 20:00:00,920 WARN [Nacso-Watch-Task-Scheduler-1][DubboServiceMetadataRepository.java:223] - Current application will subscribe all services(size:10) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services

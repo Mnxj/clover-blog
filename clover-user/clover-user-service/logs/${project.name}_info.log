@@ -1,0 +1,133 @@
+[${project.name}][${env:SERVER_PORT}] 2021-03-28 19:00:55,727 INFO [main][AbstractTestContextBootstrapper.java:308] - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.clover.user.MapperTest], using SpringBootContextLoader
+[${project.name}][${env:SERVER_PORT}] 2021-03-28 19:00:55,759 INFO [main][AbstractContextLoader.java:264] - Could not detect default resource locations for test class [com.clover.user.MapperTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+[${project.name}][${env:SERVER_PORT}] 2021-03-28 19:00:55,759 INFO [main][AnnotationConfigContextLoaderUtils.java:83] - Could not detect default configuration classes for test class [com.clover.user.MapperTest]: MapperTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+[${project.name}][${env:SERVER_PORT}] 2021-03-28 19:02:59,644 INFO [main][AbstractTestContextBootstrapper.java:308] - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.clover.user.MapperTest], using SpringBootContextLoader
+[${project.name}][${env:SERVER_PORT}] 2021-03-28 19:02:59,708 INFO [main][AbstractContextLoader.java:264] - Could not detect default resource locations for test class [com.clover.user.MapperTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+[${project.name}][${env:SERVER_PORT}] 2021-03-28 19:03:00,209 INFO [main][AbstractTestContextBootstrapper.java:248] - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+[${project.name}][${env:SERVER_PORT}] 2021-03-28 19:03:00,261 INFO [main][AbstractTestContextBootstrapper.java:177] - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@3e2055d6, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@50029372, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@e3b3b2f, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@50f6ac94, org.springframework.test.context.support.DirtiesContextTestExecutionListener@6cc4cdb9, org.springframework.test.context.transaction.TransactionalTestExecutionListener@28194a50, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@7f2cfe3f, org.springframework.test.context.event.EventPublishingTestExecutionListener@1a5b6f42, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@5038d0b5, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@32115b28, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@2ad48653, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@6bb4dd34, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@7d9f158f]
+[${project.name}][${env:SERVER_PORT}] 2021-03-28 19:03:01,810 INFO [main][:] - using logger: org.apache.dubbo.common.logger.slf4j.Slf4jLoggerAdapter
+[${project.name}][${env:SERVER_PORT}] 2021-03-28 19:03:01,825 INFO [main][WelcomeLogoApplicationListener.java:63] - 
+
+ :: Dubbo Spring Boot (v2.7.6) : https://github.com/apache/dubbo-spring-boot-project
+ :: Dubbo (v2.7.6) : https://github.com/apache/dubbo
+ :: Discuss group : dev@dubbo.apache.org
+
+[${project.name}][${env:SERVER_PORT}] 2021-03-28 19:03:01,862 INFO [main][OverrideDubboConfigApplicationListener.java:68] - Dubbo Config was overridden by externalized configuration {dubbo.application.name=user-service, dubbo.application.qos-enable=false, dubbo.application.qos.port=22230, dubbo.config.multiple=true, dubbo.consumer.check=false, dubbo.consumer.retries=-1, dubbo.consumer.timeout=3000, dubbo.protocol.name=dubbo, dubbo.protocol.port=20880, dubbo.registry.address=nacos://115.28.136.212:8848, dubbo.scan.base-packages=com.clover}
+[${project.name}][${env:SERVER_PORT}] 2021-03-28 19:03:02,402 INFO [main][BeanRegistrar.java:59] - The Infrastructure bean definition [Root bean: class [org.apache.dubbo.spring.boot.beans.factory.config.DubboConfigBeanCustomizer]; scope=; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=nullwith name [namePropertyDefaultValueDubboConfigBeanCustomizer] has been registered.
+[${project.name}][${env:SERVER_PORT}] 2021-03-28 19:03:03,101 INFO [pool-2-thread-1][AwaitingNonWebApplicationListener.java:146] -  [Dubbo] Current Spring Boot Application is await...
+[${project.name}][${env:SERVER_PORT}] 2021-03-28 19:03:03,694 INFO [main][OverrideDubboConfigApplicationListener.java:68] - Dubbo Config was overridden by externalized configuration {dubbo.application.name=user-service, dubbo.application.qos-enable=false, dubbo.application.qos.port=22230, dubbo.config.multiple=true, dubbo.consumer.check=false, dubbo.consumer.retries=-1, dubbo.consumer.timeout=3000, dubbo.protocol.name=dubbo, dubbo.protocol.port=20880, dubbo.registry.address=nacos://115.28.136.212:8848, dubbo.scan.base-packages=com.clover}
+[${project.name}][${env:SERVER_PORT}] 2021-03-28 19:03:04,001 WARN [main][NacosPropertySourceBuilder.java:87] - Ignore the empty nacos configuration and get it based on dataId[user-service] & group[CLOVER_GROUP]
+[${project.name}][${env:SERVER_PORT}] 2021-03-28 19:03:04,017 INFO [main][PropertySourceBootstrapConfiguration.java:112] - Located property source: [BootstrapPropertySource {name='bootstrapProperties-user-service.yaml,CLOVER_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-user-service,CLOVER_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-spring-boot-mybatis-plus.yaml,COMMON_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-spring-boot-starter-druid.yaml,COMMON_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-spring-boot-http.yaml,COMMON_GROUP'}]
+[${project.name}][${env:SERVER_PORT}] 2021-03-28 19:03:04,145 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+[${project.name}][${env:SERVER_PORT}] 2021-03-28 19:03:04,161 INFO [main][BeanRegistrar.java:59] - The Infrastructure bean definition [Root bean: class [org.apache.dubbo.spring.boot.beans.factory.config.DubboConfigBeanCustomizer]; scope=; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=nullwith name [namePropertyDefaultValueDubboConfigBeanCustomizer] has been registered.
+[${project.name}][${env:SERVER_PORT}] 2021-03-28 19:03:04,239 WARN [main][AbstractApplicationContext.java:558] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'application': Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javafx.application.Application]: Is it an abstract class?; nested exception is java.lang.InstantiationException
+[${project.name}][${env:SERVER_PORT}] 2021-03-28 19:03:04,254 INFO [main][AwaitingNonWebApplicationListener.java:162] -  [Dubbo] Current Spring Boot Application is about to shutdown...
+[${project.name}][${env:SERVER_PORT}] 2021-03-28 19:03:04,254 ERROR [main][SpringApplication.java:826] - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'application': Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javafx.application.Application]: Is it an abstract class?; nested exception is java.lang.InstantiationException
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1320)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1214)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:125)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:123)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:244)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:220)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:53)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [javafx.application.Application]: Is it an abstract class?; nested exception is java.lang.InstantiationException
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:204)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1312)
+	... 40 more
+Caused by: java.lang.InstantiationException
+	at sun.reflect.InstantiationExceptionConstructorAccessorImpl.newInstance(InstantiationExceptionConstructorAccessorImpl.java:48)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:200)
+	... 42 more
+[${project.name}][${env:SERVER_PORT}] 2021-03-28 19:03:04,270 ERROR [main][TestContextManager.java:248] - Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@3e2055d6] to prepare test instance [com.clover.user.MapperTest@7180e701]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:132)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:123)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:244)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:220)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:53)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'application': Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javafx.application.Application]: Is it an abstract class?; nested exception is java.lang.InstantiationException
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1320)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1214)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:125)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
+	... 24 more
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [javafx.application.Application]: Is it an abstract class?; nested exception is java.lang.InstantiationException
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:204)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1312)
+	... 40 more
+Caused by: java.lang.InstantiationException
+	at sun.reflect.InstantiationExceptionConstructorAccessorImpl.newInstance(InstantiationExceptionConstructorAccessorImpl.java:48)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:200)
+	... 42 more

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="clover-resources-service" />
+        <module name="clover-resources-application" />
+        <module name="clover-common" />
+        <module name="clover-user-api" />
+        <module name="clover-gateway-service" />
+        <module name="clover-user-service" />
+        <module name="clover-application" />
+        <module name="clover-resources-api" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="clover-application" options="-parameters" />
+      <module name="clover-common" options="-parameters -bootclasspath $PROJECT_DIR$/../../../data/jdk1.8/jre/lib/rt.jar;$PROJECT_DIR$/../../../data/jdk1.8/jre/lib/jce.jar" />
+      <module name="clover-gateway" options="" />
+      <module name="clover-gateway-service" options="-parameters" />
+      <module name="clover-resources" options="" />
+      <module name="clover-resources-api" options="-parameters -bootclasspath $PROJECT_DIR$/../../../data/jdk1.8/jre/lib/rt.jar;$PROJECT_DIR$/../../../data/jdk1.8/jre/lib/jce.jar" />
+      <module name="clover-resources-application" options="-parameters" />
+      <module name="clover-resources-service" options="-parameters" />
+      <module name="clover-user" options="" />
+      <module name="clover-user-api" options="-parameters -bootclasspath $PROJECT_DIR$/../../../data/jdk1.8/jre/lib/rt.jar;$PROJECT_DIR$/../../../data/jdk1.8/jre/lib/jce.jar" />
+      <module name="clover-user-service" options="-parameters" />
+    </option>
+  </component>
+</project>
